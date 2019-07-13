@@ -1405,14 +1405,22 @@ body {
   white-space: normal;
   vertical-align: -4px;
 }
-
-@media (min-width: 768px) {
-  .cid-ruYUfQkzf3 .count {
-    width: 100px;
-  }
+.time-work {
+	font-size:1rem !important;
+	font-weight: 500;
+	white-space: normal;
 }
-@media (max-width: 767px) {
 
+
+@media (max-width: 767px) {
+.time-work {
+	display: none !important;
+ }
+}
+@media (max-width: 300px) {
+.cid-ruYSEjczE6 .menu-logo .navbar-brand .navbar-caption-wrap>a {
+	font-size:0.75rem;
+	 }
 }
 
 .cid-ruYSEjczE6 .menu-logo .navbar-brand .navbar-logo {
