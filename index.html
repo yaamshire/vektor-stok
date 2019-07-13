@@ -47,9 +47,9 @@
                 </span>
                 <span class="navbar-caption-wrap"><a class="navbar-caption text-info display-4" href="#">
                     ВистаБиоСтрой</a>
-					<a href="tel:84951503492" class="navbar-tel text-info display-4">8(495)150-34-92</a></span>
-		    <span class="time-work">пн-пт 9:00–18:00
-<br>сб-вс 10:00-18:00</span>
+					<a href="tel:+79037812010" class="navbar-tel text-info display-4">+7903-781-20-10</a></span>
+				<span class="time-work">пн-пт 9:00–18:00<br>сб-вс 10:00-18:00</span>
+				
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -508,12 +508,14 @@
     </div>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="media-container-column col-lg-8" data-form-type="formoid">
-                <!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="UUe0jDJm77zdGVvCBMsbg7FUETRLJ1f72YKRhUnBqN82FTpLQ9GWNeAz/JQB90V+pNGKc53FwrztcFnu0RyjCEhzF3qrAKaxm+ylZROTZPWsH1iqRuw2xxt/6LOE/iiR">
+            <div class="media-container-column col-lg-8">
+                
+                <form action="recall.php" method="POST" class="mbr-form form-with-styler" data-form-title="Форма сообщений с сайта vistabio.ru">
+				<input type="hidden" name="email" data-form-email="true" value="UUe0jDJm77zdGVvCBMsbg7FUETRLJ1f72YKRhUnBqN82FTpLQ9GWNeAz/JQB90V+pNGKc53FwrztcFnu0RyjCEhzF3qrAKaxm+ylZROTZPWsH1iqRuw2xxt/6LOE/iiR">
+				 
                     <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Спасибо за обращение! Мы с Вами свяжемся по указанному телефону.</div>
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                        <div id="form-success" hidden="hidden" data-form-alert="" class="alert alert-success col-12">Спасибо за обращение! Мы с Вами свяжемся по указанному телефону.</div>
+                        <div id="form-danger" hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
                         </div>
                     </div>
                     <div class="dragArea row">
@@ -531,11 +533,11 @@
                         </div>
                         <div data-for="message" class="col-md-12 form-group">
                             <label for="message-form1-c" class="form-control-label mbr-fonts-style display-7">Дополнительные пожелания</label>
-                            <textarea name="message" data-form-field="Message" class="form-control display-7" id="message-form1-c"></textarea>
+                            <textarea name="message_add" data-form-field="Message" class="form-control display-7" id="message-form1-c"></textarea>
                         </div>
                         <div class="col-md-12 input-group-btn align-center"><button type="submit" class="btn btn-form btn-secondary display-4">ОТПРАВИТЬ</button></div>
                     </div>
-                </form><!---Formbuilder Form--->
+                </form>
             </div>
         </div>
     </div>
@@ -663,7 +665,7 @@
                 <h5 class="pb-3">
                     Контакты
                 </h5>
-               <p class="mbr-text">&nbsp;<a href="mailto:info@vistabio.ru" class="text-info">info@vistabio.ru</a><br><a href="tel:84951503492" class="text-info">8(495)150-34-92</a></p>
+               <p class="mbr-text">&nbsp;<a href="mailto:info@vistabio.ru" class="text-info">info@vistabio.ru</a><br><a href="tel:+7 9037812010" class="text-info">+7 (903) 781-20-10 </a></p>
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-7">
                 <h5 class="pb-3">
@@ -707,7 +709,6 @@
   <script src="assets/sociallikes/social-likes.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
-  
   
   <input name="animation" type="hidden">
    <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
