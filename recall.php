@@ -41,7 +41,7 @@ echo $message;
 echo $send;
     if ($send == 'true')
     {
- echo header("Location: /thanks.html");;
+ echo header("Location: ./thanks.html");;
 	
     }
     else
